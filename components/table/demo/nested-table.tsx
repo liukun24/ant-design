@@ -69,7 +69,7 @@ const expandColumns: TableColumnsType<ExpandedDataType> = [
 ];
 
 const columns: TableColumnsType<DataType> = [
-  { title: 'Name', dataIndex: 'name', key: 'name' },
+  { title: '网格名', dataIndex: 'name', key: 'name' },
   { title: 'Platform', dataIndex: 'platform', key: 'platform' },
   { title: 'Version', dataIndex: 'version', key: 'version' },
   { title: 'Upgraded', dataIndex: 'upgradeNum', key: 'upgradeNum' },
